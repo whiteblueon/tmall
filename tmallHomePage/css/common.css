@@ -248,3 +248,46 @@ body{
     width: 92px;
 }
 /* site-nav结束 */
+/* search */
+.search-logo{
+    position: relative;
+    height: 130px;
+}
+.tmall-logo{
+    position: absolute;
+    left: 0;
+}
+.tmall-logo-a{
+    display: block;
+    width: 290px;
+    height: 130px;
+}
+.tmall-search{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -323px;
+    margin-top: -25px;
+    height: 130px;
+    width: 626px;
+}
+.search-input{
+    border: 1px solid #f00;
+    float: left;
+    width: 483px;
+    height: 26px;
+    padding: 5px 3px 5px 5px;
+    
+}
+.searh-btn{
+    background: #f00;
+    color: #fff;
+    font-size: 18px;
+    width: 132px;
+    height: 38px;
+    border: 0;
+    font-weight: 700;
+    letter-spacing: 5px;
+    float: left;
+    cursor: pointer;
+}
