@@ -43,7 +43,6 @@ body{
 }
 .login-info-item{
     float: left;
-
     margin-right: 20px;
 }
 .sn-login-a,.sn-quick-a{
@@ -93,8 +92,21 @@ body{
     color: #FF0036;
     font-size: 12px;
 }
-.sn-quick-a:hover{      
+.quick-menu-item2::after,.quick-menu-item3::after{
+    content: '';
+    width: 0;
+    border-color: #FF0036 transparent transparent transparent;
+    border-width: 3px;
+    border-style: solid;
+    position: absolute;
+    top: 16px;
+    right: 3px;
+    transform-origin: 3px 1.5px;
+    transition: none;
+}
+.quick-menu-item:hover .sn-quick-a2{      
     color: #FF0036;
+    background: #fff;
 }
 .sn-menu{
     display: block;
