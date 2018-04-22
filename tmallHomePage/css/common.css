@@ -272,22 +272,48 @@ body{
     width: 626px;
 }
 .search-input{
-    border: 1px solid #f00;
+    border: 2px solid #FF0036;
+    border-right: 0;
     float: left;
     width: 483px;
     height: 26px;
     padding: 5px 3px 5px 5px;
-    
+    outline: 0;
 }
 .searh-btn{
-    background: #f00;
+    background: #FF0036;
     color: #fff;
     font-size: 18px;
     width: 132px;
-    height: 38px;
+    height: 40px;
     border: 0;
     font-weight: 700;
     letter-spacing: 5px;
     float: left;
     cursor: pointer;
+}
+.hot-query{
+    clear: both;
+    font-size: 14px;
+    padding: 5px 0;
+}
+.hot-query-item{
+    float: left;
+    border-right: 1px solid #ccc;
+    padding: 0 11px;
+}
+.hot-query-item1{
+    float: left;
+    padding-right: 10px;
+}
+.hot-query-item3{
+    float: left;
+    padding-left: 10px;
+}
+.query-a{
+    color: #999;
+}
+.hot-query-highlight{
+    color: #FF0036;
+    /* 颜色为什么放li里不好使 */
 }
