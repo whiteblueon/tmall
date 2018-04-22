@@ -14,7 +14,7 @@ img{
 body{
     background: #fff;
 }
-.wipper{
+.wrapper{
     width: 1230px;
     margin: 0 auto;
 }
@@ -317,3 +317,4 @@ body{
     color: #FF0036;
     /* 颜色为什么放li里不好使 */
 }
+/* 搜索结束 */
