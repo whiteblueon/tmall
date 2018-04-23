@@ -366,6 +366,7 @@ body{
 .hot-query-highlight{
     color: #FF0036;
     /* 颜色为什么放li里不好使 */
+    /* f12页面变形  高度 main-banner */
 }
 /* 搜索结束 */
 .inner-con0{
@@ -384,4 +385,12 @@ body{
 .inner-con0 img{
     width: 100px;
     margin-top: 2px;
+}
+/* inner-con0结束 */
+.main-banner{
+    position: relative;
+    top: 35px;
+    display: block;
+    height: 500px;
+    background-image: url(img/TB2hF_GdOQnBKNjSZFmXXcApVXa_!!38-0-luban.jpg_q100.jpg);
 }
