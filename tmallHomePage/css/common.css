@@ -55,7 +55,7 @@ body{
 .sn-quick-menu{
     float: right;
     height: 32px;
-    width: 560px;
+    width: 570px;
     color: #999;
     font-size: 12px;
 }
@@ -74,13 +74,13 @@ body{
 }
 .menu-bd2{
     position: absolute;
-    left: -1px;
+    left: 0;
     z-index: 1;
     background: #fff;
 }
 .menu-bd3{
     position: absolute;
-    right: -1px;
+    right: -2px;
     z-index: 1;
     background: #fff;
 }
@@ -92,7 +92,7 @@ body{
     color: #FF0036;
     font-size: 12px;
 }
-.quick-menu-item2::after,.quick-menu-item3::after{
+.quick-menu-item2::after,.quick-menu-item3::after,.navigation::after{
     content: '';
     width: 0;
     border-color: #FF0036 transparent transparent transparent;
@@ -104,14 +104,30 @@ body{
     transform-origin: 3px 1.5px;
     transition: none;
 }
+.quick-menu-item2:hover::after,.quick-menu-item3:hover::after,.navigation:hover::after{
+    transform: rotate(180deg);
+    transition: transform .3s ease;
+}
 .quick-menu-item:hover .sn-quick-a2{      
     color: #FF0036;
     background: #fff;
+}
+.quick-menu-item:hover .sn-menu{
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
 }
 .sn-menu{
     display: block;
     width: 100%;
     height: 100%;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+.sn-quick-a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    /* 为什么又写一遍 */
 }
 .sn-menu:hover{
     background: #fff;
@@ -194,7 +210,7 @@ body{
 .web-navigation{
     position: absolute;
     z-index: 1;
-    right: -1px;
+    right: -2px;
     border:solid #eee;
     border-width: 0 1px 1px;
     width: 1198px;
@@ -205,6 +221,7 @@ body{
 }
 .navigation{
     position: relative;
+    width: 90px;
 }
 .web-navigation-hot{
     width: 490px;
