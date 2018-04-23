@@ -371,26 +371,26 @@ body{
 /* 搜索结束 */
 .inner-con0{
     height: 35px;
+}
+.inner-con1{
+    height: 35px;
     line-height: 35px;
     font-size: 16px;
     position: absolute;
     left: 350px;
 }
-.inner-con0 a{
+.inner-con1 a{
     float: left;
     color: #333;
     padding: 0 5px;
     font-family: "Microsoft YaHei",SimSun,'\5b8b\4f53',sans-serif;
 }
-.inner-con0 img{
+.inner-con1 img{
     width: 100px;
     margin-top: 2px;
 }
 /* inner-con0结束 */
-.main-banner{
-    position: relative;
-    top: 35px;
-    display: block;
+.main-banner{  
     height: 500px;
-    background-image: url(img/TB2hF_GdOQnBKNjSZFmXXcApVXa_!!38-0-luban.jpg_q100.jpg);
+    background-image: url(TB2hF_GdOQnBKNjSZFmXXcApVXa_!!38-0-luban.jpg_q100.jpg);
 }
