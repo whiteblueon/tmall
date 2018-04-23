@@ -72,6 +72,9 @@ body{
 .quick-menu-item3{
     position: relative;
 }
+#quick-menu-item4{
+    margin-right: 10px;
+}
 .menu-bd2{
     position: absolute;
     left: 0;
@@ -95,7 +98,7 @@ body{
 .quick-menu-item2::after,.quick-menu-item3::after,.navigation::after{
     content: '';
     width: 0;
-    border-color: #FF0036 transparent transparent transparent;
+    border-color: #999 transparent transparent transparent;
     border-width: 3px;
     border-style: solid;
     position: absolute;
@@ -365,3 +368,20 @@ body{
     /* 颜色为什么放li里不好使 */
 }
 /* 搜索结束 */
+.inner-con0{
+    height: 35px;
+    line-height: 35px;
+    font-size: 16px;
+    position: absolute;
+    left: 350px;
+}
+.inner-con0 a{
+    float: left;
+    color: #333;
+    padding: 0 5px;
+    font-family: "Microsoft YaHei",SimSun,'\5b8b\4f53',sans-serif;
+}
+.inner-con0 img{
+    width: 100px;
+    margin-top: 2px;
+}
