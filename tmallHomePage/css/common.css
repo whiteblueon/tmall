@@ -395,3 +395,14 @@ body{
     height: 500px;
     background: #fe8383 url(../img/TB2hF_GdOQnBKNjSZFmXXcApVXa_!!38-0-luban.jpg_q100.jpg) no-repeat center center;
 }
+.normal-nav{
+    width: 200px;
+    /* position: absolute; */
+}
+.normal-nav-item0{
+    background: #000;
+    background-color: rgba(0,0,0,.55);
+}
+.normal-nav-item0 i{
+    padding: 0 10px;
+}
