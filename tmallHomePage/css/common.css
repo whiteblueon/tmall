@@ -390,7 +390,8 @@ body{
     margin-top: 2px;
 }
 /* inner-con0结束 */
-.main-banner{  
+.main-banner{
+    border-top: 2px solid #FF0036;
     height: 500px;
-    background-image: url(TB2hF_GdOQnBKNjSZFmXXcApVXa_!!38-0-luban.jpg_q100.jpg);
+    background: #fe8383 url(../img/TB2hF_GdOQnBKNjSZFmXXcApVXa_!!38-0-luban.jpg_q100.jpg) no-repeat center center;
 }
