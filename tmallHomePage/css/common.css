@@ -404,6 +404,8 @@ body{
     background-color: rgba(0,0,0,.55);
     font-size: 14px;
     color: #fff;
+    height: 31.2px;
+    line-height: 31.2px;
 }
 .normal-nav-item0 i{
     padding: 0 5px 0 8px;
@@ -412,10 +414,14 @@ body{
     color: #fff;
 }
 #normal-nav-item1 i{
-    padding: 0 8px 0 8px;
+    padding: 0 15px 0 8px;
 }
 #normal-nav-item1{
+    height: 36px;
     font-size: 16px;
+    line-height: 36px;
+    background: #FF0036;
+    font-weight: 700;
 }
 .normal-nav-item0 .iconfont{
     font-size: 16px;
