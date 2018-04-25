@@ -398,11 +398,13 @@ body{
 }
 .normal-nav{
     width: 200px;
-    /* position: absolute; */
-}
-.normal-nav-item0{
+    height: 536px;
+    position: relative;
+    bottom: 36px;
     background: #000;
     background-color: rgba(0,0,0,.55);
+}
+.normal-nav-item0{
     font-size: 14px;
     color: #fff;
     height: 31.2px;
@@ -434,46 +436,85 @@ body{
 #normal-nav-item1 .iconfont{
     color: #fff;
 }
-.normal-nav-item2:hover i,.normal-nav-item2:hover a{
+.normal-nav-item2:hover i,.normal-nav-item2:hover>a{
     color: #e54077;
 }
-.normal-nav-item2:hover a{
+.normal-nav-item2:hover>a{
     font-weight: 700;
 }
-.normal-nav-item3:hover i,.normal-nav-item3:hover a{
+.normal-nav-item3:hover i,.normal-nav-item3:hover>a{
     color: #427def;
 }
-.normal-nav-item3:hover a{
+.normal-nav-item3:hover>a{
     font-weight: 700;
 }
-.normal-nav-item4:hover i,.normal-nav-item4:hover a{
+.normal-nav-item4:hover i,.normal-nav-item4:hover>a{
     color: #6347ed;
 }
-.normal-nav-item4:hover a{
+.normal-nav-item4:hover>a{
     font-weight: 700;
 }
-.normal-nav-item5:hover i,.normal-nav-item5:hover a{
+.normal-nav-item5:hover i,.normal-nav-item5:hover>a{
     color: #fa5c5c;
 }
-.normal-nav-item5:hover a{
+.normal-nav-item5:hover>a{
     font-weight: 700;
 }
-.normal-nav-item6:hover i,.normal-nav-item6:hover a{
+.normal-nav-item6:hover i,.normal-nav-item6:hover>a{
     color: #f7a831;
 }
-.normal-nav-item6:hover a{
+.normal-nav-item6:hover>a{
     font-weight: 700;
 }
-.normal-nav-item7:hover i,.normal-nav-item7:hover a{
+.normal-nav-item7:hover i,.normal-nav-item7:hover>a{
     color: #dd2727;
 }
-.normal-nav-item7:hover a{
+.normal-nav-item7:hover>a{
     font-weight: 700;
 }
-.normal-nav-item8:hover i,.normal-nav-item8:hover a{
+.normal-nav-item8:hover i,.normal-nav-item8:hover>a{
     color: #3bc7b0;
 }
-.normal-nav-item8:hover a{
+.normal-nav-item8:hover>a{
     font-weight: 700;
 }
+.pannel-0{
+    position: absolute;
+    left: 200px;
+    top: 36px;
+    width: 852px;
+    height: 500px;
+    background: #ff0;
+}
+.hot-con{
+    margin: 19px 30px;
+    background: #427def;
+    width: 583px;
+    height: 462px;
+}
+.hot-word-con{
+    color: #333;
+    font-weight: 700;
+    float: left;
+    margin: 0px 20px 0 0px;
+}
+.hot-line-con1{
+    float: left;
+    width: 450px;
+    border-bottom: 1px dashed #eee;
+    padding-bottom: 10px;
+}
+.hot-line-con1 a{
+    padding: 0 3px;
+}
+.hot-line-con1 .hot-line-con-a1{
+    color: #FF0036;
+}
+.hot-line-con1 .hot-line-con-a2{
+    color: #999;
+}
+.hot-line-con1 .hot-line-con-a2:hover{
+    color: #FF0036;
+}
+
 /* 商品菜单结束 */
