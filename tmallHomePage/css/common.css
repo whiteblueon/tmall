@@ -436,43 +436,43 @@ body{
 #normal-nav-item1 .iconfont{
     color: #fff;
 }
-.normal-nav-item2:hover i,.normal-nav-item2:hover>a{
+.normal-nav-item2:hover .iconfont,.normal-nav-item2:hover>a{
     color: #e54077;
 }
 .normal-nav-item2:hover>a{
     font-weight: 700;
 }
-.normal-nav-item3:hover i,.normal-nav-item3:hover>a{
+.normal-nav-item3:hover .iconfont,.normal-nav-item3:hover>a{
     color: #427def;
 }
 .normal-nav-item3:hover>a{
     font-weight: 700;
 }
-.normal-nav-item4:hover i,.normal-nav-item4:hover>a{
+.normal-nav-item4:hover .iconfont,.normal-nav-item4:hover>a{
     color: #6347ed;
 }
 .normal-nav-item4:hover>a{
     font-weight: 700;
 }
-.normal-nav-item5:hover i,.normal-nav-item5:hover>a{
+.normal-nav-item5:hover .iconfont,.normal-nav-item5:hover>a{
     color: #fa5c5c;
 }
 .normal-nav-item5:hover>a{
     font-weight: 700;
 }
-.normal-nav-item6:hover i,.normal-nav-item6:hover>a{
+.normal-nav-item6:hover .iconfont,.normal-nav-item6:hover>a{
     color: #f7a831;
 }
 .normal-nav-item6:hover>a{
     font-weight: 700;
 }
-.normal-nav-item7:hover i,.normal-nav-item7:hover>a{
+.normal-nav-item7:hover .iconfont,.normal-nav-item7:hover>a{
     color: #dd2727;
 }
 .normal-nav-item7:hover>a{
     font-weight: 700;
 }
-.normal-nav-item8:hover i,.normal-nav-item8:hover>a{
+.normal-nav-item8:hover .iconfont,.normal-nav-item8:hover>a{
     color: #3bc7b0;
 }
 .normal-nav-item8:hover>a{
@@ -496,24 +496,54 @@ body{
     color: #333;
     font-weight: 700;
     float: left;
-    margin: 0px 20px 0 0px;
+    margin: 0px 18px 0 0;
+    /* text-align:justify; */
+    /* width: 90px; */
 }
-.hot-line-con1{
+.hot-word-con-category{
+    display: inline-block;
+    width: 55px;
+    text-align:justify;
+}
+.hot-word-con-category::after{  
+    content:"";  
+    display:inline-block;  
+    width:100%;  
+}
+  /* 为什么加了这个东西就好使了 */
+.hot-word-con-category+i{
+    float: right;
+}
+.hot-word-con i{
+    font-style: normal;
+}
+.hot-line-con,.hot-line-con0{
     float: left;
     width: 450px;
-    border-bottom: 1px dashed #eee;
-    padding-bottom: 10px;
+    border-top: 1px dashed #eee;
+    padding:10px 0;
 }
-.hot-line-con1 a{
-    padding: 0 3px;
+.hot-line-con0{
+    padding: 0 0 8px 0;
+    border-top: 0;
 }
-.hot-line-con1 .hot-line-con-a1{
+.hot-line-con a,.hot-line-con0 a{
+    /* display: inline-block; */
+    /* 为什么加了这个dib 自动一行了 */
+    padding: 0 4px 0 4px;
+    float: left;
+    /* 为什么float: left;去掉a的上下空白 */
+    height: 22px;
+    line-height: 22px;
+    font-size: 14px;
+}
+.hot-line-con .hot-line-con-a1,.hot-line-con0 .hot-line-con-a1{
     color: #FF0036;
 }
-.hot-line-con1 .hot-line-con-a2{
+.hot-line-con .hot-line-con-a2,.hot-line-con0 .hot-line-con-a2{
     color: #999;
 }
-.hot-line-con1 .hot-line-con-a2:hover{
+.hot-line-con .hot-line-con-a2:hover,.hot-line-con0 .hot-line-con-a2:hover{
     color: #FF0036;
 }
 
