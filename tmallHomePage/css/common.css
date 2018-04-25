@@ -390,6 +390,7 @@ body{
     margin-top: 2px;
 }
 /* inner-con0结束 */
+/* 商品菜单开始 */
 .main-banner{
     border-top: 2px solid #FF0036;
     height: 500px;
@@ -427,6 +428,52 @@ body{
     font-size: 16px;
     color: #999;
 }
+.normal-nav-item0:hover{
+    background: #fff;
+}
 #normal-nav-item1 .iconfont{
     color: #fff;
 }
+.normal-nav-item2:hover i,.normal-nav-item2:hover a{
+    color: #e54077;
+}
+.normal-nav-item2:hover a{
+    font-weight: 700;
+}
+.normal-nav-item3:hover i,.normal-nav-item3:hover a{
+    color: #427def;
+}
+.normal-nav-item3:hover a{
+    font-weight: 700;
+}
+.normal-nav-item4:hover i,.normal-nav-item4:hover a{
+    color: #6347ed;
+}
+.normal-nav-item4:hover a{
+    font-weight: 700;
+}
+.normal-nav-item5:hover i,.normal-nav-item5:hover a{
+    color: #fa5c5c;
+}
+.normal-nav-item5:hover a{
+    font-weight: 700;
+}
+.normal-nav-item6:hover i,.normal-nav-item6:hover a{
+    color: #f7a831;
+}
+.normal-nav-item6:hover a{
+    font-weight: 700;
+}
+.normal-nav-item7:hover i,.normal-nav-item7:hover a{
+    color: #dd2727;
+}
+.normal-nav-item7:hover a{
+    font-weight: 700;
+}
+.normal-nav-item8:hover i,.normal-nav-item8:hover a{
+    color: #3bc7b0;
+}
+.normal-nav-item8:hover a{
+    font-weight: 700;
+}
+/* 商品菜单结束 */
