@@ -388,6 +388,8 @@ body{
 .inner-con1 img{
     width: 100px;
     margin-top: 2px;
+}.inner-con1 a:hover{
+    color: #FF0036
 }
 /* inner-con0结束 */
 /* 商品菜单开始 */
@@ -544,7 +546,7 @@ body{
 .hot-line-con .hot-line-con-a1,.hot-line-con0 .hot-line-con-a1{
     color: #e54077;
 }
-.hot-line-con .hot-line-con-a2,.hot-line-con0 .hot-line-con-a2{
+.hot-line-con .hot-line-con-a2,.hot-line-con0 .hot-line-con-a2,.hot-line-con2 .hot-line-con-a2,.hot-line-con3 .hot-line-con-a2,.hot-line-con4 .hot-line-con-a2,.hot-line-con5 .hot-line-con-a2,.hot-line-con6 .hot-line-con-a2,.hot-line-con7 .hot-line-con-a2,.hot-line-con8 .hot-line-con-a2{
     color: #999;
 }
 .hot-line-con .hot-line-con-a2:hover,.hot-line-con0 .hot-line-con-a2:hover{
@@ -553,17 +555,11 @@ body{
 .hot-line-con2 .hot-line-con-a1{
     color: #427def;
 }
-.hot-line-con2 .hot-line-con-a2{
-    color: #999;
-}
 .hot-line-con2 .hot-line-con-a2:hover{
     color: #427def;
 }
 .hot-line-con3 .hot-line-con-a1{
     color: #6347ed;
-}
-.hot-line-con3 .hot-line-con-a2{
-    color: #999;
 }
 .hot-line-con3 .hot-line-con-a2:hover{
     color: #6347ed;
@@ -571,17 +567,11 @@ body{
 .hot-line-con4 .hot-line-con-a1{
     color: #fa5c5c;
 }
-.hot-line-con4 .hot-line-con-a2{
-    color: #999;
-}
 .hot-line-con4 .hot-line-con-a2:hover{
     color: #fa5c5c;
 }
 .hot-line-con5 .hot-line-con-a1{
     color: #f7a831;
-}
-.hot-line-con5 .hot-line-con-a2{
-    color: #999;
 }
 .hot-line-con5 .hot-line-con-a2:hover{
     color: #f7a831;
@@ -589,17 +579,11 @@ body{
 .hot-line-con6 .hot-line-con-a1{
     color: #dd2727;
 }
-.hot-line-con6 .hot-line-con-a2{
-    color: #999;
-}
 .hot-line-con6 .hot-line-con-a2:hover{
     color: #dd2727;
 }
 .hot-line-con7 .hot-line-con-a1{
     color: #3bc7b0;
-}
-.hot-line-con7 .hot-line-con-a2{
-    color: #999;
 }
 .hot-line-con7 .hot-line-con-a2:hover{
     color: #3bc7b0;
