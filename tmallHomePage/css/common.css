@@ -617,6 +617,7 @@ body{
 }
 /* 商品菜单结束 */
 /* activity-bg开始 */
+/* ka-brand开始 */
 .ka-brand{
     margin-top: 30px;
 }
@@ -634,4 +635,20 @@ body{
 .ka-brand-a1 img,.ka-brand-a2 img{
     width: 100%;
 }
+/* ka-brand结束 */
+/* brandWall-content开始 */
+.brandWall-content1,.brandWall-content2{
+    float: left;
+}
+.brandWall-content1{
+    margin-right: 10px;
+}
+.brandWall-content-body{
+    height: 316px;
+}
+.brandWall-content-body img{
+    height: 316px;
+}
+
+/* brandWall-content结束 */
 /* activity-bg结束 */
