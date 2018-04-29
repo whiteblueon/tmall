@@ -616,3 +616,22 @@ body{
     display: block;
 }
 /* 商品菜单结束 */
+/* activity-bg开始 */
+.ka-brand{
+    margin-top: 30px;
+}
+.ka-brand-a0{
+    display: block;
+    padding: 0 315px 20px 315px;
+}
+.ka-brand-a1,.ka-brand-a2{
+    width: 238px;
+    float: left;
+}
+.ka-brand-a1{
+    margin-right: 10px;
+}
+.ka-brand-a1 img,.ka-brand-a2 img{
+    width: 100%;
+}
+/* activity-bg结束 */
