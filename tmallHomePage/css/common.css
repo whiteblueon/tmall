@@ -640,7 +640,12 @@ body{
     width: 100%;
 }
 /* ka-brand结束 */
-/* brandWall-content开始 */
+/* brandWall开始 */
+.brandWall{
+    padding-top: 34px;
+    height: 326px;
+    clear: both;
+}
 .brandWall-content1,.brandWall-content2{
     float: left;
 }
@@ -659,6 +664,9 @@ body{
 .brandWall-content-head span{
     float: left;
 }
+.brandWall-span1{
+    margin-left: 10px;
+}
 .brandWall-content-body2 img,.brandWall-content-body img{
     height: 316px;
 }
@@ -669,5 +677,5 @@ body{
     width: 485px;
 }
 
-/* brandWall-content结束 */
+/* brandWall结束 */
 /* activity-bg结束 */
