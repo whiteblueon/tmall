@@ -643,9 +643,15 @@ body{
 .brandWall-content1{
     margin-right: 13px;
 }
-/* .brandWall-content-body{
-    width: 100%;
-} */
+.brandWall-content-head{
+    background: #fff;
+    height: 54px;
+    text-align: center;
+    line-height: 54px;
+}
+.brandWall-content-head span{
+    float: left;
+}
 .brandWall-content-body2 img,.brandWall-content-body img{
     height: 316px;
 }
