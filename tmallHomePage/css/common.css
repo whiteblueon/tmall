@@ -641,13 +641,19 @@ body{
     float: left;
 }
 .brandWall-content1{
-    margin-right: 10px;
+    margin-right: 13px;
 }
-.brandWall-content-body{
+/* .brandWall-content-body{
+    width: 100%;
+} */
+.brandWall-content-body2 img,.brandWall-content-body img{
     height: 316px;
 }
 .brandWall-content-body img{
-    height: 316px;
+    width: 234px;
+}
+.brandWall-content-body2 img{
+    width: 485px;
 }
 
 /* brandWall-content结束 */
