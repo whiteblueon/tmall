@@ -680,24 +680,23 @@ body{
     width: 485px;
 }
 .brandWall-body-a{
-    display: inline-block;
-    /* text-align: center; */
-    /* width: 20px;
-    height: 20px; */
-    /* background-image: url(../img/brandWall-body-a.png);
-    background-repeat: no-repeat;
-    background-size: 17px; */
-    /* margin-top: 20px; */
+    float: right;
+}
+.brandWall-body-a img{
+    width: 17px;
+    margin-top: 20px;
+    margin-right: 10px;
+    float: right;
+}
+/* .brandWall-body-a1 img{
+    margin-right: 10px;
+    float: right;
 }
 .brandWall-body-a2 img{
-    width: 17px;
-    margin-top: 30px;
-}
+
+} */
 /* .brandWall-body-a1{
     margin-left: 20px;
 }
-.brandWall-body-a2{
-    margin-left: 230px;
-} */
 /* brandWall结束 */
 /* activity-bg结束 */
