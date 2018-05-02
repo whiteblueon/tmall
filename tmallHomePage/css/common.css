@@ -365,7 +365,6 @@ body{
 }
 .hot-query-highlight{
     color: #FF0036;
-    /* 颜色为什么放li里不好使 */
     /* f12页面变形  高度 main-banner */
 }
 /* 搜索结束 */
@@ -377,7 +376,7 @@ body{
     line-height: 35px;
     font-size: 16px;
     position: absolute;
-    left: 430px;
+    left: 350px;
 }
 .inner-con1 a{
     float: left;
@@ -393,10 +392,18 @@ body{
 }
 /* inner-con0结束 */
 /* 商品菜单开始 */
-.main-banner{
-    border-top: 2px solid #FF0036;
+.banner{
+    position: relative;
     height: 500px;
-    background: #fe8383 url(../img/TB2hF_GdOQnBKNjSZFmXXcApVXa_!!38-0-luban.jpg_q100.jpg) no-repeat center center;
+    background: #fe8383;
+    border-top: 2px solid #FF0036;
+}
+.main-banner{
+    position: absolute;
+}
+.main-banner img{
+    width: 1230px;
+    height: 500px;
 }
 .normal-nav{
     width: 200px;
@@ -502,8 +509,6 @@ body{
     font-weight: 700;
     float: left;
     margin: 2px 18px 0 0;
-    /* text-align:justify; */
-    /* width: 90px; */
 }
 .hot-word-con-category{
     display: inline-block;
@@ -515,8 +520,6 @@ body{
     display:inline-block;  
     width:100%;  
 }
-  /* 为什么加了这个东西就好使了
-  是因为是最后一行吗 */
 .hot-word-con-category+i{
     float: right;
 }
