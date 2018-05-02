@@ -305,7 +305,7 @@ body{
 }
 .tmall-logo{
     position: absolute;
-    left: -20px;
+    left: -50px;
 }
 .tmall-logo-a{
     display: block;
@@ -377,7 +377,7 @@ body{
     line-height: 35px;
     font-size: 16px;
     position: absolute;
-    left: 350px;
+    left: 430px;
 }
 .inner-con1 a{
     float: left;
