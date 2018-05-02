@@ -365,7 +365,6 @@ body{
 }
 .hot-query-highlight{
     color: #FF0036;
-    /* f12页面变形  高度 main-banner */
 }
 /* 搜索结束 */
 .inner-con0{
@@ -537,11 +536,8 @@ body{
     border-top: 0;
 }
 .hot-line-con a,.hot-line-con0 a{
-    /* display: inline-block; */
-    /* 为什么加了这个dib 自动一行了 */
     padding: 0 4px 0 4px;
     float: left;
-    /* 为什么float: left;去掉a的上下空白 */
     height: 22px;
     line-height: 22px;
     font-size: 14px;
@@ -644,7 +640,7 @@ body{
 /* brandWall开始 */
 .brandWall{
     padding-top: 34px;
-    height: 326px;
+    height: 376px;
     clear: both;
 }
 .brandWall-content1,.brandWall-content2{
@@ -691,15 +687,26 @@ body{
     margin-right: 10px;
     float: right;
 }
-/* .brandWall-body-a1 img{
-    margin-right: 10px;
-    float: right;
-}
-.brandWall-body-a2 img{
-
-} */
-/* .brandWall-body-a1{
-    margin-left: 20px;
-}
 /* brandWall结束 */
+/* new-hot-brand开始*/
+.new-hot-brand{
+    margin-top: 15px;
+    height: 327px;
+    clear: both;
+}
+.hot-brand-item{
+    background: #fff;
+    text-align: center;
+    width: 122px;
+    height: 108px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    float: left;
+}
+.hot-brand-item img{
+    width: 82%;
+    height: 50px;
+    margin-top: 29px;
+}
+/* new-hot-brand结束*/
 /* activity-bg结束 */
