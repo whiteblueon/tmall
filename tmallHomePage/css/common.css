@@ -735,4 +735,27 @@ body{
     color: #fff;
 }
 /* new-hot-brand结束*/
+/* new-floor开始 */
+.new-floor{
+    margin-top: 20px;
+}
+.new-floor .floor-name img{
+    float: left;
+    width: 214px;
+    height: 25px;
+}
+.new-floor .hot-word-con-ul{
+    float: right;
+}
+.new-floor .hot-word-con-ul li{
+    float: left;
+    margin: 5px 10px;
+}
+.new-floor .hot-word-con-ul li a{
+    color: #000;
+}
+.new-floor .hot-word-con-ul li:hover a{
+    border-bottom: 1px solid #000;
+}
+/* new-floor结束 */
 /* activity-bg结束 */
