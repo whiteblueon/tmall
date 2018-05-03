@@ -708,5 +708,28 @@ body{
     height: 50px;
     margin-top: 29px;
 }
+.div-icon-shuaxin{
+    margin-top: 27px;
+}
+.hot-brand-item .icon-shuaxin{
+    font-size: 30px;
+    color: #999;
+    transform-origin: 15px 15px;
+}
+.hot-brand-item span{
+    font-size: 14px;
+    color: #999;
+}
+.hot-brand-item2:hover{
+    background: #FF0036;
+}
+.hot-brand-item:hover .icon-shuaxin{
+    color: #fff;
+    transform: rotate(180deg);
+    transition: transform 3s ease;
+}
+.hot-brand-item2:hover span{
+    color: #fff;
+}
 /* new-hot-brand结束*/
 /* activity-bg结束 */
