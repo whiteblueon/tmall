@@ -710,11 +710,14 @@ body{
 }
 .div-icon-shuaxin{
     margin-top: 27px;
+    margin-left: 46px;
+    height: 33px;
+    width: 30px;
+    transform-origin: 15px 16.5px;
 }
 .hot-brand-item .icon-shuaxin{
     font-size: 30px;
-    color: #999;
-    transform-origin: 15px 15px;
+    color: #999;   
 }
 .hot-brand-item span{
     font-size: 14px;
@@ -723,12 +726,12 @@ body{
 .hot-brand-item2:hover{
     background: #FF0036;
 }
-.hot-brand-item:hover .icon-shuaxin{
-    color: #fff;
-    transform: rotate(180deg);
-    transition: transform 3s ease;
+.hot-brand-item:hover .div-icon-shuaxin{
+    transform: rotate(360deg);
+    transition: transform .5s ease-out;
 }
-.hot-brand-item2:hover span{
+/* 为什么加在span上不好使 */
+.hot-brand-item2:hover span,.hot-brand-item:hover .icon-shuaxin{
     color: #fff;
 }
 /* new-hot-brand结束*/
