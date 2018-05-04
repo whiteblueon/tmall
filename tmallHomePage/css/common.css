@@ -744,17 +744,17 @@ body{
     width: 214px;
     height: 25px;
 }
-.new-floor .hot-word-con-ul{
+.new-floor .floor-hot-word-ul{
     float: right;
 }
-.new-floor .hot-word-con-ul li{
+.new-floor .floor-hot-word-ul li{
     float: left;
     margin: 5px 10px;
 }
-.new-floor .hot-word-con-ul li a{
+.new-floor .floor-hot-word-ul li a{
     color: #000;
 }
-.new-floor .hot-word-con-ul li:hover a{
+.new-floor .floor-hot-word-ul li:hover a{
     border-bottom: 1px solid #000;
 }
 /* new-floor结束 */
