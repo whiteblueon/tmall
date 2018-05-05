@@ -779,12 +779,34 @@ body{
 }
 .hot-word-line-body .line-body-ul li{
     float: left;
+}
+.hot-word-line-body .line-body-ul .floor-table,.hot-word-line-body .line-body-ul .line-body-item{
     border-bottom: 15px solid #f5f5f5;
 }
 .hot-word-line-body .floor-table{
     width: 484px;
     height: 301px;
     margin-left: 12px;
+    background: #fbfbfb;
+}
+.floor-table  .floor-table-head li{
+    background: #fbfbfb;
+    height: 57px;
+    line-height: 57px;
+}
+.hot-word-line-body .floor-table div{
+    width: 462px;
+    height: 282px;
+    margin: 10px;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,.09);
+}
+.floor-table-head li{
+    width: 191px;
+    height: 57px;
+    text-align: center;
+    background: #f1f1f1;
+    font-size: 18px;
+    padding: 0 20px;
 }
 .hot-word-line-body .line-body-item{
     width: 234px;
@@ -802,6 +824,19 @@ body{
 .hot-word-line-body .line-body-item img{
     margin-top: 20px;
     height: 185px;
+}
+.line-body-item .floor-item-title{
+    width: 135px;
+    height: 40px;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    margin-left: 49px;
+}
+.line-body-item .floor-price{
+    font-size: 18px;
+    color: #FF0036;
+    margin: 10px auto;
 }
 /* new-floor结束 */
 /* activity-bg结束 */
