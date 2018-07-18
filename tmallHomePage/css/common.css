@@ -97,7 +97,7 @@ body{
 }
 .quick-menu-item2::after,.quick-menu-item3::after,.navigation::after{
     content: '';
-    width: 0;
+    /* width: 0; */
     border-color: #999 transparent transparent transparent;
     border-width: 3px;
     border-style: solid;
